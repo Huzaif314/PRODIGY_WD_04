@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="wrapper">
+        <nav class="sticky nav-bar">
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="left">Huzaif Shaikh</div>
+            <div class="right">
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#qualifications_main">Education</a></li>
+                    <li><a href="#projects_main">Projects</a></li>
+                    <li><a href="#contact_main">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main id="home">
+        <section class="firstsection">
+            <img src="image.avif">
+
+
+        </section>
+        <section class=" secondsection">
+            <div class="hello">Hello</div>
+            <div class="about">A Bit About Me</div>
+            <div class="content">
+            I'm Huzaif, a Student with a deep passion for Coding. With a blend of creativity and expertise, I strive to deliver innovative solutions that make a lasting impact. Explore my portfolio to witness my journey of turning ideas into reality.
+            </div>
+        </section>
+
+    </main>
+    <main id="skills_main">
+        <section id="skills">
+            <h1 class="heading">Skills</h1>
+            <div class="Container">
+
+                <div class="container">
+                    <div class="skills">Web Development</div>
+
+                </div>
+<br>
+                <div class="container">
+                    <div class="skills">JAVA</div>
+                </div>
+<br>
+                <div class="container">
+                    <div class="skills">Data Structurs and Algorithms</div>
+                </div>
+<br>
+                <div class="container">
+                    <div class="skills">CPP, Python</div>
+                </div>
+<br>
+                <div class="container">
+                    <div class="skills">MySQL, Mongodb</div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <main id="qualifications_main">
+        <h1 class="heading1">Education</h1>
+        <section class="qualifications">
+            <div class="qualification">
+                <ul>
+                    <li class="education">
+                        <div>BE(TE) Computer Science And Engineering</div>
+                        <div>Sinhgad Academy of Engineering</div>
+                        <div>(2021-2025)</div>
+                    </li>
+
+                    <li class="education">
+                        <div>Higher Secondary School</div>
+                        <div>S.N.B.P. Jr. College</div>
+                        <div>(2019-2021)</div>
+                    </li>
+                    <li class="education">
+                        <div>Secondary School</div>
+                        <div>S.S. Ajmera High School</div>
+                        <div>(2019)</div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+            <br>
+        <br>
+        
+    </main>
+    <main id="projects_main">
+        <h1 class="heading1">Projects</h1>
+        <section class="projects">
+            <ul>
+                <li>
+                    <div class="project" id="personal_portfolio">Personal Portfolio Project</div>
+                </li>
+                <br>
+                <li>
+                    <div class="project description">My Personal Portfolio,course website made using HTML,CSS,Javascript</div>
+                </li><br>
+                <li>
+                    <div class="project description">Stopwatch, weather website made using HTML,CSS,Javascript</div>
+                </li><br>
+                <li>
+                    <div class="project description">Voice Assistant made using Python</div>
+                </li><br>
+                <li>
+                    <div class="project description">Railway Management System made using MySQL</div>
+                </li><br>
+            </ul>
+            
+        </section>
+    </main>
+    <main id="contact_main">
+        <section class="contact">
+            <h1 class="heading1">Contact Me</h1>
+            <form id="contact-form" onsubmit="sendmail(); reset(); return false;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Enter your name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Enter your email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+            <div id="response"></div>
+        </section>
+    </main>
+    <footer>
+        <div class=" rightfooter">  
+            <ul>
+                <li class="logos"><a href="https://www.linkedin.com" target="_blank"><img
+                            src="linkedin.WEBP" alt="as"></a></li>
+                <li class="logos"><a href="https://github.com" target="_blank"><img src="github.svg"
+                            alt="as"></a></li>
+                <li class="logos"><a href="https://twitter.com" target="_blank"><img src="x.avif"
+                            alt="as"></a>
+                </li>
+                <li class="logos"><a href="https://www.instagram.com" target="_blank"><img
+                            src="insta.png" alt="as"></a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>
